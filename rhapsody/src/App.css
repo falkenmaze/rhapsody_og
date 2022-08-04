@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.app
+{
+  background-color: black;
+  position: absolue;
+  height: 1000vh;
+}
+
+.app__header
+{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #121212;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  object-fit: contain;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage
+{
+  font-family: 'Courier New', cursive;
+  font-size: 50px;
+  color: red;
+}
+
+.app__signup
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts
+{
+  padding: 20px;
+}
